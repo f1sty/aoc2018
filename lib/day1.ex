@@ -20,6 +20,7 @@ defmodule Aoc2018.Day1 do
   end
 
   defp reaches_twice([num | tail], inp, curr_freq, seen_before) do
+    # TODO: refactor this later
     num =
       num
       |> String.trim()
